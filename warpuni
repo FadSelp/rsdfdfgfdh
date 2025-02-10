@@ -2,9 +2,9 @@
 //profile-update-interval: 24
 //subscription-userinfo: upload=0; download=0; total=10737418240000000; expire=2546249531
 
-warp://p1@188.114.97.170:894?ifp=40-80&ifps=40-100&ifpd=4-8&ifpm=m4#WARPik
+warp://p1@188.114.97.170:894?ifp=40-80&ifps=40-100&ifpd=4-8&ifpm=m4#WARPik&&detour=warp://p2@188.114.97.170:894#warp in warp
+warp://p1@auto?ifpm=m4#LocalIP&&detour=warp://p2@auto#WarpInWarp✅
 warp://p1@auto?ifp=120&ifps=23-911&ifpd=20-250&ifpm=m4#Warp_P
 warp://p1@auto?ifp=4&ifps=40-70&ifpd=20-250&ifpm=m4#Warp_M
 warp://p1@auto?ifp=40-80&ifps=40-100&ifpd=4-8&ifpm=m4#Warp_W
 warp://p1@auto?ifp=5-10&ifps=40-100&ifpd=20-250&ifpm=m4#Warp_L
-warp://p1@auto?ifp=5-10&ifps=40-100&ifpd=20-250&ifpm=m4#Warp-in-Warp&&detour=warp://p2@auto#WarpInWarp✅
