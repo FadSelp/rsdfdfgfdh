@@ -1,3 +1,17 @@
+### dns.geohide.ru: hosts file
+# Последнее обновление: 22 мая 2026
+# Домены взяты из этих источников:
+# https://dns.geohide.ru:8443
+# https://info.dns.malw.link/hosts
+# https://iplist.opencck.org/ru
+# https://freedom.mafioznik.xyz/file/hosts
+# Только эти серверы принадлежат GeoHide DNS:
+# 45.155.204.190
+# 37.230.192.51
+# 31.25.239.132
+# В итоговом hosts указанно меньше сайтов чем проксируется через DNS.
+
+# Canva
 45.155.204.190 canva.com
 37.230.192.51 canva.com
 45.155.204.190 content-management-files.canva.com
@@ -592,3 +606,4 @@
 37.230.192.51 windsurf-telemetry.codeium.com
 45.155.204.190 windsurf.com
 37.230.192.51 windsurf.com
+### dns.geohide.ru: end hosts file
